@@ -1,0 +1,10 @@
+[{"id":"1","nom":"Huntley","prenom":"Le Jean","isAdmin":false},
+{"id":"2","nom":"Rosemary","prenom":"Dumphry","isAdmin":false},
+{"id":"3","nom":"Katuscha","prenom":"Gilhooly","isAdmin":true},
+{"id":"4","nom":"Saloma","prenom":"Colcutt","isAdmin":true},
+{"id":"5","nom":"Kania","prenom":"Pickwell","isAdmin":false},
+{"id":"6","nom":"Maye","prenom":"Coombs","isAdmin":false},
+{"id":"7","nom":"Courtenay","prenom":"Malafe","isAdmin":true},
+{"id":"8","nom":"Osmund","prenom":"Mattisson","isAdmin":false},
+{"id":"9","nom":"Alidia","prenom":"Filasov","isAdmin":false},
+{"id":"10","nom":"Aurea","prenom":"Pett","isAdmin":true}]

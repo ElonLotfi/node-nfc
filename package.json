@@ -1,0 +1,22 @@
+{
+  "name": "serverlab",
+  "version": "1.0.0",
+  "main": "initializer.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "taiga",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.3"
+  },
+  "description": "",
+  "dependencies": {
+    "mongoose": "^6.2.3"
+  },
+  "engines": {
+    "node": "0.8.14",
+    "npm": "1.1.65"
+  }
+}
