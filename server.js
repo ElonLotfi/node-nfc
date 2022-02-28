@@ -34,12 +34,24 @@ Object.keys (arborescence).forEach ((key) => {
         .get (api.countElems (arborescence[key]));
 });
 
-const mongoose = require('mongoose');
+
+let mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost:27017/dbLab')
-    .then(() => {
-        console.log("Successfully connect to MongoDB.");
-    })
-    .catch(err => {
-        console.error("Connection error", err);
+const uri = 'mongodb+srv://mbds:mbds@premium.hsosy.mongodb.net/premium?retryWrites=true&w=majority';
+
+
+const options = {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useFindAndModify: false
+  };
+
+mongoose.connect(uri, options)
+  .then(() => {
+    console.log("Connecté à la base MongoDB assignments dans le cloud !");
+    console.log("at URI = " + uri);
+    console.log("vérifiez with data que cela fonctionne")
+  },
+    err => {
+      console.log('Erreur de connexion: ', err);
     });
